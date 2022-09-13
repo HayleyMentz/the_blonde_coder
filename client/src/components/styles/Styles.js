@@ -3,8 +3,8 @@ import { Button, Card, Form, Container, Navbar, Col, Image, Pagination } from 'r
 import { Link } from 'react-router-dom'
 
 export const MainLoginBtn = styled(Button)`
-color: #084C26 !important;
-border-color:#084C26 !important;
+color: #ff5e6c !important;
+border-color:#ff5e6c !important;
 background-color: white;
   font-family: 'Open Sans';
   font-style: normal;
@@ -15,7 +15,7 @@ background-color: white;
   text-decoration: none;
   padding: 10px;
   :hover {
-    background-color: #084C26;
+    background-color: #ff5e6c;
     color: white !important;
   }
 
@@ -23,15 +23,15 @@ background-color: white;
 
 export const BtnWhiteTxt = styled(Button)`
 color: white !important;
-background-color: #084C26 !important;
-border-color:#084C26 !important;
+background-color: #ff5e6c !important;
+border-color:#ff5e6c !important;
 
 
  
 `
 
 export const LinkColors = styled(Link)`
-color: #084C26 !important;
+color: #ff5e6c !important;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
@@ -84,7 +84,7 @@ padding: 5%;
 // Footer styles
 export const FootLine  = styled.footer`
 max-width: 100%
-background: #FFFFFF;
+background: #ffaaab;
 border-top:  1px solid rgba(0, 32, 104, 0.08);
 `
 export const FootSpace  = styled.p`
@@ -92,7 +92,7 @@ display: flex;
 `
 
 export const FootName  = styled.span`
-color: #084C26;
+color: #ff5e6c;
 font-style: normal;
 font-weight: 900;
 font-size: 20px;
@@ -137,7 +137,7 @@ color: black;
 padding: 5px;
 position: left bottom;
 
-background: #FFFFFF;
+background: #fff5d7;
 border-radius: 10px;
 
 `
@@ -146,8 +146,8 @@ border-radius: 10px;
 
 
 export const PaginationGreen = styled(Pagination.Item)`
-color: #084C26 !important;
-border-color:#084C26 !important;
+color: #ff5e6c !important;
+border-color:#ff5e6c !important;
 background-color: white;
 
 padding: 10px;

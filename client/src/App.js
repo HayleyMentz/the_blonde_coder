@@ -20,10 +20,12 @@ import Footer from "./components/shared/home/Footer";
 import "./components/shared/home/styles.css";
 
 
+
+
 const App = () => (
   <>
     <MainNavbar />
-    <div className="content-container">
+    <div className="content-container" style={{backgroundColor:'#ffaaab'}} >
     <FetchUser>
       <Routes>
         <Route path="/" element={<Home />} />

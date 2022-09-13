@@ -8,6 +8,7 @@ import { MainImg } from '../../styles/Styles';
 
 const LandingPage = () => (
 <>
+<div style={{backgroundColor:'#ffaaab'}}>
   <Row>
     <Col md={6}>
   
@@ -24,7 +25,7 @@ const LandingPage = () => (
       
     </Col>
   </Row>
-  
+  </div>
 </>
 )
 export default LandingPage;
