@@ -17,10 +17,13 @@ import Team from './components/shared/Team';
 import Trainings from './components/Training/Trainings';
 import RegPage from "./components/shared/home/RegPage";
 import Footer from "./components/shared/home/Footer";
+import "./components/shared/home/styles.css";
+
 
 const App = () => (
   <>
     <MainNavbar />
+    <div className="content-container">
     <FetchUser>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -39,7 +42,9 @@ const App = () => (
         <Route path='/*' element={<Nomatch />} />
       </Routes>
     </FetchUser>
-    <Footer/>
+    </div>
+
+  <Footer className="footer--pin"/> 
   </>
 );
 

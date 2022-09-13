@@ -14,10 +14,11 @@ const Footer = () => (
             <img
               alt="logo"
               src={logo}
-              width="70px"
-              height="70px"
+              width="35px"
+              height="35px"
             />
-            <FootName>FITMEAL</FootName>
+
+            <FootName>The Blonde Coder</FootName>
         </Col>
 
     

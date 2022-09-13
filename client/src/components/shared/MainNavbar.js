@@ -36,7 +36,7 @@ const MainNavbar = ({ user, handleLogout }) => {
       return (
         <>
           <Nav.Link>
-            <LinkColors to='/team'>Team</LinkColors>
+            <LinkColors to='/team'>Contact Me</LinkColors>
           </Nav.Link>
           <Link to='/register'>
             <MainLoginBtn>
