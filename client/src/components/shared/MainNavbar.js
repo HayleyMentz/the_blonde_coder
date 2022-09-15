@@ -59,12 +59,13 @@ const MainNavbar = ({ user, handleLogout }) => {
 
       <NavbarLine expand="sm">
    
-        <Navbar.Brand>
-        <img className='nav-logo'
-              alt="logo"
-              src={logo}
-              width="70px"
-              />
+        <Navbar.Brand> 
+          <img className='nav-logo' 
+          alt="logo" 
+          src={logo} width="70px" /> 
+            <Nav.Link> 
+              <LinkColors to='/'>Home</LinkColors> 
+            </Nav.Link>      
           </Navbar.Brand>
           
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -2,11 +2,14 @@ import styled from 'styled-components'
 import { Button, Card, Form, Container, Navbar, Col, Image, Pagination } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
+
+
+
 export const MainLoginBtn = styled(Button)`
 color: #ff5e6c !important;
 border-color:#ff5e6c !important;
 background-color: white;
-  font-family: 'Open Sans';
+  font-family: 'Aclonica';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -25,6 +28,7 @@ export const BtnWhiteTxt = styled(Button)`
 color: white !important;
 background-color: #ff5e6c !important;
 border-color:#ff5e6c !important;
+font-family: 'Aclonica';
 
 
  
@@ -32,7 +36,7 @@ border-color:#ff5e6c !important;
 
 export const LinkColors = styled(Link)`
 color: #ff5e6c !important;
-font-family: 'Open Sans';
+font-family: 'Aclonica';
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -93,17 +97,20 @@ display: flex;
 
 export const FootName  = styled.span`
 color: #ff5e6c;
+font-family: 'Henny Penny';
 font-style: normal;
-font-weight: 900;
-font-size: 20px;
+font-weight: 300;
+font-size: 25px;
+
+
 `
 
 export const FootLinks  = styled(Link)`
 text-decoration: none;
 color: #545454;
-font-family: 'Open Sans';
+font-family: 'Aclonica';
 font-style: normal;
-font-weight: 400;
+font-weight: 200;
 font-size: 15px;
 `
 
