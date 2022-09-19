@@ -36,16 +36,16 @@ const MainNavbar = ({ user, handleLogout }) => {
       return (
         <>
           <Nav.Link>
-            <LinkColors to='/team'>Contact Me</LinkColors>
+            <LinkColors to='/team'>About Me</LinkColors>
           </Nav.Link>
-          <Link to='/register'>
+          <Link to='/contact'>
             <MainLoginBtn>
-              Sign Up
+              Contact
             </MainLoginBtn>
           </Link>
-          <Link to='/login'>
+          <Link to='/payment'>
             <BtnWhiteTxt>
-              Log In
+             Payment
             </BtnWhiteTxt>
           </Link>
         </>
@@ -60,11 +60,9 @@ const MainNavbar = ({ user, handleLogout }) => {
       <NavbarLine expand="sm">
    
         <Navbar.Brand> 
-          <img className='nav-logo' 
-          alt="logo" 
-          src={logo} width="70px" /> 
+         
             <Nav.Link> 
-              <LinkColors to='/'>Home</LinkColors> 
+              <LinkColors to='/info'>Home</LinkColors> 
             </Nav.Link>      
           </Navbar.Brand>
           

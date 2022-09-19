@@ -1,6 +1,38 @@
 import styled from 'styled-components'
 import { Row } from 'react-bootstrap'
 
+export const EnterImg = styled.img `
+width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 30px;
+  border: 3px solid #ff5e6c;
+
+`
+export const EnterTitle = styled.h1 `
+color: black;
+font-family: 'Henny Penny';
+text-align: center;
+font-size: 75px;
+
+`
+export const ContactLink = styled.div`
+margin: 0 200px;
+display: flex;
+gap: 30px;
+
+`
+export const WorkoutBtn = styled.div`
+  height: 28.25px;
+  background: #192126;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  gap: 90px;
+`
 export const HeaderImg = styled.img`
   width: 100%;
   height: 180px;
@@ -45,16 +77,7 @@ export const CardHeader = styled.div`
   align-items: center;
   text-align: center;
 `
-export const WorkoutBtn = styled.div`
-  height: 28.25px;
-  background: #192126;
-  color: #fff;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-top: 10px;
-  display: flex;
-  gap: 90px;
-`
+
 
 export const EntBtns = styled.div`
   display: flex;

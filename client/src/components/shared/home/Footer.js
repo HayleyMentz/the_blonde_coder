@@ -11,12 +11,9 @@ const Footer = () => (
       <Row className="mx-auto py-4 flex-wrap">
         
         <Col>
-            <img
-              alt="logo"
-              src={logo}
-              width="35px"
-              height="35px"
-            />
+        <img className='nav-logo' 
+          alt="logo" 
+          src={logo} width="70px" /> 
 
             <FootName>The Blonde Coder</FootName>
         </Col>
